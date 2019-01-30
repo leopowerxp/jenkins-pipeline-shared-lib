@@ -1,4 +1,4 @@
-def call(){
-    println "Hello James"
+def call(name){
+    println "Hello $name"
     sh "export"
 }
